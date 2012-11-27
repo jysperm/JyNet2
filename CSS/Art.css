@@ -1,0 +1,116 @@
+﻿#LeftDiv
+{
+    float: left;
+    width: 661px;
+    text-align: left;
+}
+#Say
+{
+    border: thin groove #C0C0C0;
+    float: left;
+    width: 661px;
+    text-align: left;
+    font-size: 13px;
+}
+#RightDiv
+{
+    text-align: left;
+    float: right;
+    width: 285px;
+}
+#RightDiv a
+{
+    font-size: 14px;
+    color: #005a98;
+    overflow: hidden;
+}
+h1
+{
+    font-family: 'Times New Roman' , Times, serif;
+    font-size: 19px;
+    font-weight: bold;
+    font-variant: normal;
+    color: #0066ff;
+    text-align: center;
+}
+span.Keys
+{
+    font-size: 12px;
+    font-family: 宋体, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #808080;
+}
+hr
+{
+    height: 5px;
+    border: none;
+    border-top: 5px ridge #45D6D8;
+}
+#jiathis_a
+{
+    float: left;
+}
+.SayItem
+{
+    padding: 15px;
+    border-bottom-style: dotted;
+    border-bottom-width: thin;
+    border-bottom-color: #CCCCCC;
+}
+.SayInfo
+{
+    float: right;
+    margin-right: 20px;
+}
+#ShowAll
+{
+    float: right;
+    font-family: 'Times New Roman' , Times, serif;
+    font-size: 13px;
+    margin-top: 25px;
+}
+#SayNew
+{
+    float: left;
+    width: 661px;
+    text-align: left;
+}
+.Em
+{
+    padding: 5px;
+    float: left;
+}
+#Info
+{
+    float: left;
+    width: 100%;
+}
+#In
+{
+    float: left;
+    width: 100%;
+    height: 60px;
+}
+#VCodeIn
+{
+    float: left;
+}
+#OK
+{
+    float: right;
+    width: 92px;
+    margin-right: 20px;
+}
+#VCode
+{
+    width: 71px;
+}
+#VCodeImg
+{
+    vertical-align: bottom;
+}
+pre.Code
+{
+    font-family: 'Courier New' , Courier, monospace;
+    color: #008200;
+}

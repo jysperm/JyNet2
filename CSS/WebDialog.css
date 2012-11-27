@@ -1,0 +1,55 @@
+﻿.WebDialog_border
+{
+	border: solid 1px #69c;
+	font-size: 12px;
+	float: left;
+	width: 100%;
+	clear: both;
+}
+.WebDialog_titleBar
+{
+	-moz-user-select: none;
+	height: 26px;
+	background: url(http://jybox.net/Images/Dialog/title_bg.gif) repeat-x;
+	cursor: move;
+}
+.WebDialog_ico
+{
+	margin: 5px;
+	float: left;
+}
+.WebDialog_titleText
+{
+	padding-top: 7px;
+	float: left;
+}
+.WebDialog_titleCloseButton
+{
+	margin-top: 9px;
+	margin-right: 8px;
+	float: right;
+	cursor: pointer;
+}
+.WebDialog_content
+{
+	background-color: White;
+	padding: 20px 10px 20px 10px;
+	text-align: center;
+}
+.WebDialog_buttonPanel
+{
+	height: 46px;
+	background: url(http://jybox.net/Images/Dialog/btnpanel_bg.gif) repeat-x;
+	width: 100%;
+	text-align: center;
+}
+.WebDialog_commandButton
+{
+	border: none;
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 69px;
+	height: 24px;
+	background: url(http://jybox.net/Images/Dialog/btn_bg.gif) no-repeat;
+}

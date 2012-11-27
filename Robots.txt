@@ -1,0 +1,9 @@
+User-agent: *
+sitemap: http://jybox.net/sitemap.aspx
+Allow: /
+Disallow: /Admin/
+Disallow: /AJAX/
+Disallow: /CSS/
+Disallow: /JS/
+Disallow: /UI/
+Disallow: /MyBlog/Admin.aspx

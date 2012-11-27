@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <title>{jybox~标题}_{jybox~分类名}_精英盒子.Net</title>
+    <meta name="keywords" content="{jybox~关键字},{jybox~分类关键字},精英盒子,精英王子,Jybox" />
+    <meta name="description" content="{jybox~描述}" />
+    <link href="../CSS/Frame.css" rel="stylesheet" type="text/css" />
+    <link href="../CSS/Art.css" rel="stylesheet" type="text/css" />
+    <link href="../CSS/Art10.css" rel="stylesheet" type="text/css" />
+    <script src="../JS/WebAjax.js" type="text/javascript"></script>
+    <script src="../JS/WebCommon.js" type="text/javascript"></script>
+    <link href="../CSS/WebDialog.css" rel="stylesheet" type="text/css" />
+    <script src="../JS/WebDialog.js" type="text/javascript"></script>
+    <script src="../JS/User.js" type="text/javascript"></script>
+</head>
+<body>
+    <script type="text/javascript">
+var id={jybox~ID};
+    </script>
+    <div id="MainFrame">
+        <div id="HeadBar">
+            加载中...
+        </div>
+        <div class="HeadArea">
+            <div class="HeadLogo">
+                <img alt="Logo" src="../Images/logo.png" />
+            </div>
+        </div>
+        {jybox~菜单}
+        <div id="MainTable">
+            <div id="LeftDiv">
+                <h1>
+                    {jybox~标题}</h1>
+                <hr />
+                <a href="http://www.jiathis.com/share/" class="jiathis" target="_blank">
+                    <img src="http://v2.jiathis.com/code/images/jiathis2.gif" border="0" id="jiathis_a" /></a>
+                <span class="Keys">作者:{jybox~作者}&nbsp; |&nbsp; 发表时间：{jybox~发表时间} |&nbsp; 本文访问量：<span
+                    id="PV"></span> </span>
+                <br />
+                <span class="Body">{jybox~正文} </span>
+                <br />
+                <span style="float: right">编辑：{jybox~编辑}于{jybox~编辑时间}</span>
+                <hr />
+                <div id="Say">
+                    评论加载中...
+                </div>
+                <div id="SayNew">
+                    <a id="ShowAll" onclick="Show(100);return false;" href="#">以上是最后一部分评论，点击这里查看全部</a>
+                    <br />
+                    <hr />
+                    <img onclick="AddEm(1);" src="../Images/EM/1.gif" class="Em" />
+                    <img onclick="AddEm(2);" src="../Images/EM/2.gif" class="Em" />
+                    <img onclick="AddEm(3);" src="../Images/EM/3.gif" class="Em" />
+                    <img onclick="AddEm(4);" src="../Images/EM/4.gif" class="Em" />
+                    <img onclick="AddEm(5);" src="../Images/EM/5.gif" class="Em" />
+                    <img onclick="AddEm(6);" src="../Images/EM/6.gif" class="Em" />
+                    <img onclick="AddEm(7);" src="../Images/EM/7.gif" class="Em" />
+                    <img onclick="AddEm(8);" src="../Images/EM/8.gif" class="Em" />
+                    <img onclick="AddEm(9);" src="../Images/EM/9.gif" class="Em" />
+                    <img onclick="AddEm(10);" src="../Images/EM/10.gif" class="Em" />
+                    <img onclick="AddEm(11);" src="../Images/EM/11.gif" class="Em" />
+                    <img onclick="AddEm(12);" src="../Images/EM/12.gif" class="Em" />
+                    <img onclick="AddEm(13);" src="../Images/EM/13.gif" class="Em" />
+                    <img onclick="AddEm(14);" src="../Images/EM/14.gif" class="Em" />
+                    <img onclick="AddEm(15);" src="../Images/EM/15.gif" class="Em" />
+                    <span id="Info">正在加载用户信息...</span>
+                    <textarea id="In"></textarea>
+                    <div id="VCodeIn">
+                        验证码：<a href="#" onclick="ReVCode();return false;"><img id="VCodeImg" alt="点击更换验证码"
+                            src="../UI/VCode.aspx" /></a>
+                        <input id="VCode" type="text" /><a href="#" onclick="Login(ALoad);" style="font-size: 13px">登录后无需验证码</a>
+                    </div>
+                    <input id="OK" type="button" value="发表" onclick="NewSay();" />
+                </div>
+            </div>
+            <div id="RightDiv">
+                本文访问量：<span id="RPV"></span> <a href="http://www.jiathis.com/share/" class="jiathis"
+                    target="_blank">
+                    <img src="http://v2.jiathis.com/code/images/jiathis2.gif" border="0" id="Img1" /></a>
+                <br />
+                上一篇：<br />
+                {jybox~上一篇}<br />
+                下一篇：<br />
+                {jybox~下一篇}<br />
+                <br />
+                <!--以下是QQ邮件列表订阅嵌入代码-->
+                <script>
+                    var nId = "63a86777bcf2918985b73eb6b79252bc97a46c4ec85206a1", nWidth = "auto", sColor = "light", sText = "填写您的邮件地址，订阅我们的精彩内容：";
+                </script>
+                <script src="http://list.qq.com/zh_CN/htmledition/js/qf/page/qfcode.js" charset="gb18030"></script>
+                <br />
+                <!--广告↓-->
+                <a href="http://count.chanet.com.cn/click.cgi?a=340436&d=181231&u=&e=" target="_blank"><IMG SRC="http://file.chanet.com.cn/image.cgi?a=340436&d=181231&u=&e=" width="234" height="60"  border="0"></a>
+                <!--广告↑-->
+                <br />
+                <div class="Art10">
+                    <h4>
+                        相关文章</h4>
+                    <ul>
+                        {jybox~相关文章}
+                    </ul>
+                </div>
+                <br />
+            </div>
+            <div class="Clear">
+            </div>
+        </div>
+    </div>
+    <br />
+    <div id="Footer">
+    </div>
+    <script type="text/javascript" src="../JS/Frame.js"></script>
+    <script src="../JS/Art.js" type="text/javascript"></script>
+    <script type="text/javascript" src="http://v2.jiathis.com/code/jia.js" charset="utf-8"></script>
+</body>
+</html>

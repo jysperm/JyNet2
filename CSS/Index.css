@@ -1,0 +1,142 @@
+﻿.MainTable
+{
+    /*height: 877px;*/
+    text-align:left;
+}
+#DivTL
+{
+    float: left;
+    width: 666px;
+}
+#DivTR
+{
+    float: left;
+    width: 273px;
+}
+#ByKey
+{
+    padding: 5px;
+    border: 1px solid #d6d6d6;
+    height: 106px;
+    text-align: left;
+    color: #727272;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+#MyTag
+{
+    width: 68px;
+}
+#DLogin
+{
+    height: 115px;
+}
+#ABout
+{
+    text-align: left;
+    padding: 8px;
+    background-color: #FFFFCC;
+    border: 2px solid #E8E800;
+    height: 101px;
+    line-height: 20px;
+    margin-top: 5px;
+}
+#DivDL
+{
+    float: left;
+    width: 790px;
+}
+#DivDR
+{
+    float: left;
+    width: 135px;
+}
+.Art10
+{
+    height: 205px;
+}
+h4
+{
+    background-color: #C6E9FD;
+    margin: 0px 0px 0px 0px;
+    text-align:center;
+}
+#Link
+{
+    margin-bottom: 15px;
+    text-align: center;
+}
+#D
+{
+    float:left;
+}
+
+
+/*登录框*/
+#UIn
+{
+    margin: 10px;
+}
+#Logo
+{
+    float: right;
+    width: 80px;
+    height: 80px;
+}
+.Money
+{
+    float: left;
+    width: 126px;
+    text-align: left;
+    color: #FF9900;
+    font-weight: bold;
+    font-size: 15px;
+}
+.ImgMoney
+{
+    float: left;
+}
+.Exp
+{
+    float: left;
+    width: 140px;
+    text-align: left;
+    font-size: 18px;
+}
+.NName
+{
+    float: left;
+    width: 160px;
+    text-align: left;
+    font-size: 22px;
+    font-weight: bold;
+}
+#Pay
+{
+    float: left;
+}
+#LogOut
+{
+    float: right;
+}
+.ExpIn
+{
+    color: #009933;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/*焦点↓↓*/
+#Focus
+{
+    width:660px;
+    height: 170px;
+    border: 2px solid #FF3300;
+    text-align: left;
+    float: left; 
+}
+
+

@@ -1,0 +1,268 @@
+﻿body
+{
+    background-image: url('../MyBlog/BG.jpg');
+    background-color: #000000;
+}
+#HeadArea
+{
+    background-image: url('../MyBlog/Head.jpg');
+    height: 154px;
+}
+.MainTable
+{
+}
+#MainFrame
+{
+    width: 918px;
+}
+#BMenu
+{
+    float: left;
+    width: 525px;
+    height: 26px;
+    margin-top: 124px;
+    margin-left: 80px;
+    white-space: nowrap;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: left;
+}
+#BMenu a
+{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 20px 8px 20px;
+    width: 59px;
+    text-align: center;
+    height: 9px;
+}
+#BMenu a:hover
+{
+    color: #000;
+    text-decoration: none;
+    font-size: 15px;
+}
+#BMenu li
+{
+    float: left;
+    height: 100%;
+    list-style-type: none;
+    padding-left: 0px;
+    height: 27px;
+}
+ul
+{
+    padding-left: 0px;
+}
+#ArtMain
+{
+    text-align:left;
+    background-color: #000000;
+}
+#ArtMain a
+{
+    color: #FFFFFF;
+}
+.ATitle
+{
+    border-left-style: solid;
+    border-left-width: 6px;
+    border-left-color: #808080;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    color: #FFFFFF;
+    padding-left: 20px;
+    
+}
+.AInfo
+{
+    color: #FFFFFF;
+    font-size: 12px;
+    padding-left: 25px;
+}
+.ArtBody
+{
+    padding: 20px 20px 40px 20px;
+    font-size: 13px;
+    color: #CCCCCC;
+    background-color: #000000;
+}
+#F
+{
+    font-size: 12px;
+    height: 67px;
+    color: #FFFFFF;
+    clear: both;
+}
+.ArtFooter
+{
+    text-align: right;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+#ArtList
+{
+    text-align: left;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+#ArtList h2
+{
+    padding-left: 30px;
+    color: #C0C0C0;
+}
+.ATitle a
+{
+    text-align: right;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+    text-decoration: none;
+}
+.ATitle a:hover
+{
+    font-size: 21px;
+    text-decoration: underline;
+}
+#ArtList .AInfo
+{
+    margin-bottom: 35px;
+}
+#Say
+{
+    border: thin groove #C0C0C0;
+    float: left;
+    text-align: left;
+    font-size: 13px;
+    background-color: #000000;
+    color: #FFFFFF;
+    width: 100%;
+}
+.SayItem
+{
+    padding: 15px;
+    border-bottom-style: dotted;
+    border-bottom-width: thin;
+    border-bottom-color: #CCCCCC;
+}
+.SayInfo
+{
+    float: right;
+    margin-right: 20px;
+}
+#ShowAll
+{
+    float: right;
+    font-family: 'Times New Roman' , Times, serif;
+    font-size: 13px;
+    margin-top: 25px;
+}
+#SayNew
+{
+    float: left;
+    text-align: left;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+#SayNew a
+{
+    color: #FFFFFF;
+}
+.Em
+{
+    padding: 5px;
+    float: left;
+}
+#Info
+{
+    float: left;
+    width: 100%;
+}
+#In
+{
+    float: left;
+    width: 98%;
+    height: 60px;
+}
+#VCodeIn
+{
+    float: left;
+}
+#OK
+{
+    float: right;
+    width: 92px;
+    margin-right: 20px;
+}
+#VCode
+{
+    width: 71px;
+}
+#VCodeImg
+{
+    vertical-align: bottom;
+}
+#ILeft
+{
+    float:left;
+    width: 200px;
+    height: 446px;
+}
+#IRight
+{
+    float: right;
+    width: 715px;
+    color: #FFFFFF;
+    background-color: #000000;
+    text-align:left;
+}
+#IRight h2
+{
+    text-align: left;
+    color: #CCCCCC;
+}
+#MyInfo
+{
+    color: #FFFFFF;
+    text-align: left;
+    font-size: 12px;
+    height: 136px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#MyInfo a
+{
+    color: #FFFFFF;
+}
+#MyInfo img.Logo
+{
+    float: left;
+    width: 80px;
+    height: 80px;
+}
+.C
+{
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+}
+#Time
+{
+    color: #FFFFFF;
+}
+.FRA
+{
+    font-size: 16px;
+    color: #7D7DFF;
+}
+#My
+{
+    padding: 60px 50px 50px 60px;
+    text-align: left;
+    margin: 0px;
+}
+#My a
+{
+    color: #FFFFFF;
+}

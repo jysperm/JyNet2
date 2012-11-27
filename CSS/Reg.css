@@ -1,0 +1,38 @@
+﻿#RegMain
+{    
+    width: 245px;
+    height: 528px;
+    text-align:left;
+    margin: 0px auto;
+    font-size:12px;
+    line-height:27px;
+}
+.FRight
+{    
+    float:right;
+}
+.FRight input
+{    
+    width:155px;
+    margin:2px 2px 2px 2px;
+}
+.FLeft
+{
+    width: 63px;
+    height: 121px;
+}
+#VCode
+{
+    width: 60px;
+    vertical-align: top;
+}
+#VCodeImg
+{
+    border-width: 0px;
+}
+#OK
+{
+    float:right;
+    height: 30px;
+    width: 85px;
+}

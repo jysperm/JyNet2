@@ -1,0 +1,60 @@
+﻿#ByKey
+{
+    padding: 5px;
+    border: 1px solid #d6d6d6;
+    height: 106px;
+    text-align: left;
+    color: #727272;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+#Set
+{
+    text-align: left;
+}
+#Out
+{
+    margin: 20px;
+    text-align: left;
+}
+#Out ul
+{
+    list-style-type:none;
+    padding-left:2px;
+    margin: 10px 10px 10px 10px;
+    padding:0px 0px 0px 0px;
+    overflow: hidden;
+}
+#Out ul li
+{
+    background:url(../images/li.gif) no-repeat left 8px;
+    padding-left:9px;
+    text-align:left;
+    font-size:12px;
+    color:#005a98;
+    overflow: hidden;
+}
+#Out ul li a
+{
+    white-space:nowrap; 
+	-o-text-overflow:ellipsis; 
+	text-decoration: none;
+}
+#Out ul li a:hover
+{
+    font-size:13px;
+    text-decoration: underline;
+}
+#Out ul li a:visited
+{
+    color: #808080;
+}
+#D
+{
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

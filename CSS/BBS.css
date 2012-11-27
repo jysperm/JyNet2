@@ -1,0 +1,194 @@
+﻿#BBSBMain
+{
+    width: 687px;
+    height: 406px;
+}
+.BBSB
+{
+    margin: 20px;
+    float: right;
+    width: 403px;
+    height: 67px;
+    text-align: left;
+    border: 1px dashed #BEF8FC;
+}
+.BBSB img
+{
+    float: left;
+    height: 100%;
+    width: 177px;
+}
+.BBSB:hover
+{
+    border: 1px dashed #0000FF;
+    background-color: #D3F5FC;
+}
+.BBSL
+{
+    text-align: left;
+}
+.BBSL .BBSB
+{
+    float: none;
+}
+#FormMain
+{
+    text-align: center;
+}
+#BBSList
+{
+}
+.BBSLine
+{
+    clear: left;
+    width: 100%;
+    line-height: 20px;
+    font-size: 12px;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+    height: 22px;
+}
+.BBSL1
+{
+    float: left;
+    width: 62%;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.BBSL2
+{
+    float: left;
+    width: 14%;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+}
+.BBSL3
+{
+    float: left;
+    width: 14%;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+}
+.BBSL4
+{
+    float: left;
+    width: 9%;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+}
+#BBSPNew
+{
+    margin: 20px;
+    float: right;
+}
+#PNew
+{
+    height: 35px;
+    width: 110px;
+}
+#TitleR
+{
+    float: right;
+    height: 50px;
+    width: 160px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 17px;
+    color: #000000;
+    font-weight: normal;
+}
+#PTitle
+{
+    height: 50px;
+    line-height: 50px;
+    color: #0066FF;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.MainTablep
+{
+    border: 2px solid #00C9FB;
+}
+#TitleIn
+{
+    float:left;
+    width:780px;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#tDir
+{
+    padding: 13px;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: #00C9FB;
+}
+.PItem
+{
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color: #00C9FB;
+    margin-bottom: 20px;
+}
+.PIL
+{
+    padding: 5px;
+    background-color: #C1F2FF;
+    float: left;
+    width: 130px;
+}
+.PIR
+{
+    float: left;
+    width: 760px;
+}
+.ULogo
+{
+    width: 105px;
+    height: 105px;
+}
+.NName
+{
+    font-weight: bolder;
+    font-size: 19px;
+    color: #00006F;
+}
+.EXP
+{
+    color: #009933;
+}
+.BIN
+{
+    padding: 22px;
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-left-color: #00C9FB;
+}
+#NewR
+{
+    border-top: 2px solid #00C9FB;
+    height: 393px;
+}
+#RIn
+{
+    width:940px;
+    height: 238px;
+}
+#NewROK
+{
+    float: right;
+    margin-top: 20px;
+    margin-right: 60px;
+    height: 37px;
+    width: 101px;
+}
+.BBSL1 sup, #TitleIn sup
+{
+    color: #FF0000;
+    text-decoration: none;
+}
